@@ -148,6 +148,7 @@ for item in numbers:
          print(item)
          '''
 # Count the total number of digits in a number
+'''
 from itertools import count
 
 
@@ -157,3 +158,11 @@ while num != 0:
     num = num // 10
     count = count + 1
 print("Total digits are:", count)
+'''
+#pattern
+n = 5
+k = 5
+for i in range(0,n+1):
+    for j in range(k-i,0,-1):
+        print(j,end=' ')
+    print()
