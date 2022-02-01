@@ -137,7 +137,7 @@ for value in range(1, 11, 2):
 #If the number is greater than 150, then skip it and move to the next number
 #If the number is greater than 500, then stop the loop
 
-    
+'''  
 numbers = [12, 75, 150, 180, 145, 545, 50]
 for item in numbers:
     if item > 500:
@@ -146,3 +146,14 @@ for item in numbers:
         continue
     elif item % 5 == 0:
          print(item)
+         '''
+# Count the total number of digits in a number
+from itertools import count
+
+
+num = 75869
+count = 0
+while num != 0:
+    num = num // 10
+    count = count + 1
+print("Total digits are:", count)
