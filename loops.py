@@ -127,9 +127,22 @@ for i in range(1, row + 1, 1):
   
 
 # print a multiplication table of given numbe
-
+'''
 num = 2 
 for value in range(1, 11, 2):
     p = num * value
     print(p)
+    '''
+#The number must be divisible by five
+#If the number is greater than 150, then skip it and move to the next number
+#If the number is greater than 500, then stop the loop
+
     
+numbers = [12, 75, 150, 180, 145, 545, 50]
+for item in numbers:
+    if item > 500:
+        break
+    elif item > 150:
+        continue
+    elif item % 5 == 0:
+         print(item)
