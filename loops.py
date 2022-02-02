@@ -188,6 +188,7 @@ else:
     print('Done!')
     '''
 #display all prime numbers within a range
+'''
 for i in range(25, 50):
     if i > 1:
         for num in range(2, i):
@@ -195,4 +196,20 @@ for i in range(25, 50):
                 break
         else:
             print(i)
+            '''
+#Display Fibonacci series up to 10 terms
+# first two numbers
+num1, num2 = 0, 1
+
+print("Fibonacci sequence:")
+# run loop 10 times
+for i in range(10):
+    # print next number of a series
+    print(num1, end="  ")
+    # add last two numbers to get next number
+    res = num1 + num2
+
+    # update values
+    num1 = num2
+    num2 = res
             
