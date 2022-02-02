@@ -181,7 +181,18 @@ for num in range(-10, 0, 1):
     print(num)
     '''
 #Use else block to display a message “Done” after successful execution of for loop
+'''
 for i in range(5):
     print(i)
 else:
     print('Done!')
+    '''
+#display all prime numbers within a range
+for i in range(25, 50):
+    if i > 1:
+        for num in range(2, i):
+            if(i % num) == 0:
+                break
+        else:
+            print(i)
+            
