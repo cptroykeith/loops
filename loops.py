@@ -255,6 +255,7 @@ for i in range(1, input_number + 1):
     print("Current Number is :", i, " and the cube is", (i * i * i))
     '''
 #Find the sum of the series upto n terms
+'''
 n = 5
 # first number of sequence
 start = 2
@@ -267,3 +268,15 @@ for i in range(0, n):
     # calculate the next term
     start = start * 10 + 2
 print("\nSum of above series is:", sum_seq)
+'''
+#print a pattern
+rows = 5
+for i in range(0, rows):
+    for j in range(0, i + 1):
+        print("*", end=' ')
+    print("\r")
+
+for i in range(rows, 0, -1):
+    for j in range(0, i - 1):
+        print("*", end=' ')
+    print("\r")
