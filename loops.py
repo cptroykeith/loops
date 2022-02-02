@@ -249,6 +249,21 @@ for i in my_list[1::2]:
     print(i, end=" ")
     '''
 #Calculate the cube of all numbers from 1 to a given number
+'''
 input_number = 6
 for i in range(1, input_number + 1):
     print("Current Number is :", i, " and the cube is", (i * i * i))
+    '''
+#Find the sum of the series upto n terms
+n = 5
+# first number of sequence
+start = 2
+sum_seq = 0
+
+# run loop n times
+for i in range(0, n):
+    print(start, end="+")
+    sum_seq += start
+    # calculate the next term
+    start = start * 10 + 2
+print("\nSum of above series is:", sum_seq)
