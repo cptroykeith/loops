@@ -176,5 +176,12 @@ for item in new_list:
      print(item)
      '''
 #Display numbers from -10 to -1 using for loop
+'''
 for num in range(-10, 0, 1):
     print(num)
+    '''
+#Use else block to display a message “Done” after successful execution of for loop
+for i in range(5):
+    print(i)
+else:
+    print('Done!')
